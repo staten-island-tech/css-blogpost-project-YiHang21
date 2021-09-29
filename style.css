@@ -42,14 +42,16 @@ body{background-color: blueviolet;}
 .parent2 {
   
   background-image: url(kangaroo.jpg);
-  
+  opacity: 0.75;
 }
+
 .child2 {
   position: absolute;
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(19, 233, 19);
+  color: rgb(19, 233, 48);
+  opacity: 1;
 }
 
 .link2 {
@@ -57,7 +59,8 @@ body{background-color: blueviolet;}
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(51, 218, 9);
+  color: rgb(218, 9, 9);
+  opacity: 1;
 }
 
 .text2 {
@@ -65,7 +68,8 @@ body{background-color: blueviolet;}
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(72, 255, 0);
+  color: rgb(46, 241, 12);
+  opacity: 1;
 }
 
 .parent3 {
